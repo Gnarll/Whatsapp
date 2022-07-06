@@ -1,9 +1,13 @@
 import React from 'react';
-import { Text } from 'react-native';
 import Layout from '../components/Layout';
+import Stories from '../components/Stories';
 
 const Home = () => {
-  return <Layout></Layout>;
+  return (
+    <Layout>
+      <Stories />
+    </Layout>
+  );
 };
 
 export default Home;

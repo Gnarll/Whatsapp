@@ -1,5 +1,4 @@
 import React from 'react';
-import { View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import Header from './Header';
 import Footer from './Footer';
